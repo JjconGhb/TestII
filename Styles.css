@@ -1,0 +1,84 @@
+body {
+padding-top: 60px;
+font-family: Arial, Helvetica, sans-serif;
+overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 15px;
+    background-color: rgb(16, 124, 219);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    animation: hCR 10s infinite;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 5px;
+    text-align: left;
+    color:white;
+}
+
+@keyframes hCR {
+    0% {background-color: rgb(16, 124, 219);}
+    10% {background-color: rgb(145, 16, 219);}
+    20% {background-color: rgb(219, 16, 158);}
+    30% {background-color: rgb(219, 16, 16);}
+    40% {background-color: rgb(219, 80, 16);}
+    50% {background-color: rgb(219, 155, 16);}
+    60% {background-color: rgb(165, 219, 16);}
+    70% {background-color: rgb(33, 219, 16);}
+    80% {background-color: rgb(16, 219, 107);}
+    90% {background-color: rgb(16, 219, 185);}
+    100% {background-color: rgb(16, 124, 219);}
+}
+@keyframes bCR {
+    0% {background-color: rgb(212, 0, 131)}
+    10% {background-color: rgb(145, 16, 219);}
+    20% {background-color: rgb(219, 16, 158);}
+    30% {background-color: rgb(219, 16, 16);}
+    40% {background-color: rgb(219, 80, 16);}
+    50% {background-color: rgb(219, 155, 16);}
+    60% {background-color: rgb(165, 219, 16);}
+    70% {background-color: rgb(33, 219, 16);}
+    80% {background-color: rgb(16, 219, 107);}
+    90% {background-color: rgb(16, 219, 185);}
+    100% {background-color: rgb(255, 160, 247);}
+}
+
+#aDiv {
+width: 145px;
+position: absolute;
+right: 40px;
+top:15px;
+}
+
+img {
+box-shadow: 3px 5px 26px -6px rgba(0,0,0,0.66);
+}
+
+i {
+    color: rgba(0, 0, 0, 0.466);
+}
+
+button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: rgb(212, 0, 131);
+    color:white;
+    border-radius: 10px;
+}
+
+button:hover {
+    animation: bCR 1s;
+    background-color: rgb(255, 160, 247);
+}
